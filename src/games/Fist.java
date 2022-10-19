@@ -17,12 +17,10 @@ public class Fist {
 
     }
     // en metod som när den anropas returnerar 0.1.2
-
-    //@FIXME: typo/stavfel on line 25
     public int play () {
         Random random = new Random();
         int result= random.nextInt(3);
-        return resultat;
+        return result;
     }
 
 }
