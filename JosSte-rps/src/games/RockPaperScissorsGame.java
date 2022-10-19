@@ -15,6 +15,7 @@ public class RockPaperScissorsGame {
         game.playGame();
     }
 
+    //@FIXME: You haven't created getters & setters for the field Player.name. Do the same as you have done with the field Player.score to resolve the problem.
     void playGame() {
         System.out.println(player.getName());
 
